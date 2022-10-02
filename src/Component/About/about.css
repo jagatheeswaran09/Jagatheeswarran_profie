@@ -1,0 +1,67 @@
+.about{
+    padding: 0 3rem 0 3rem;
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.a-left{    
+    flex: 1;
+    position: relative;
+}
+.a-left>*{
+    position: absolute;
+    z-index: -1;
+
+}
+.a-left>:nth-child(1){
+    width: 15rem;
+    height: 19rem;
+    border: 7px solid rgb(117 193 192 / 65%);
+    border-radius: 10px;
+    box-shadow: var(--smboxShadow);
+    z-index: 1;
+}
+.a-right>:nth-child(2) {
+    margin-top: 6rem;
+    width: 17rem;
+    height: 8rem;
+    border: 7px solid var(--orangeCard);
+    border-radius: 20px;
+    padding: 2rem 26px 1px 26px;
+    background: rgba(233, 233, 233, 0.500);
+}
+.a-about-title{
+    left: 37rem;
+    position: absolute;
+    width: 21rem;
+}
+.a-about-title>:nth-child(1){
+    color: var(--back);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.a-about-title>:nth-child(3){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+@media screen and (max-width:480px) {
+.about{
+    transform: scale(0.8);
+    flex-direction: column-reverse;
+    height: 26rem;
+}
+.a-left{
+    left: -8rem;
+}
+.a-right>*{
+    width: 100%;
+    left: -6rem;
+}
+.a-right>:nth-child(2){
+    transform: translateX(-10rem);
+}
+}
