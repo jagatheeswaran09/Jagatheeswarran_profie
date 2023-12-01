@@ -22,7 +22,7 @@ const Intro=()=>{
                         color:darkMode?'white':'',
                     }}>Hai! I am</span>
                     <span>Jagatheeswaran Marimuthu</span>
-                    <span>Frontend developer with in the level of experience and development, productiong the qulity work</span>
+                    <span>I am a frontend developer with one year of experience, dedicated to producing quality work</span>
                 </div>
                 <Link spy={true} to ='Contact' smooth={true}>
                 <button className=" button i-button">Hire me</button></Link>

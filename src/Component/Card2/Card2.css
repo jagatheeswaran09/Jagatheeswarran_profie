@@ -19,8 +19,10 @@
     font-size: 16px;
 }
 .card2>img{
-    transform: scale(0.6);
-    margin-bottom: -2rem;
+    /* transform: scale(0.6); */
+    /* margin-bottom: -2rem; */
+    width: 100px;
+    border-radius: 50%;
 }
 .card2>:nth-child(2){
     margin-top: 2rem;
