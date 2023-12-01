@@ -18,12 +18,12 @@ function App() {
       color:darkMode?'white':'',
     }}
     >
-      <Navbar/>
+      {/* <Navbar/>
       <Intro/>
       <Service/>
       <Project/>
-      <About/>
-      <Contact/>
+      {/* <About/> */}
+      {/* <Contact/>  */}
     </div>
   );
 }
