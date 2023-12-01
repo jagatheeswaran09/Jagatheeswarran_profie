@@ -23,7 +23,7 @@ function App() {
       <Service/>
       <Project/>
       {/* <About/> */}
-      <Contact/>
+      <Contact/> 
     </div>
   );
 }
